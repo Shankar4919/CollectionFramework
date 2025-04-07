@@ -25,6 +25,7 @@ public class Main {
         for(String name: fruits){
             System.out.println(name);
         }
-
+        Box box = new Box(100, 200.5);
+        box.display();
     }
 }
